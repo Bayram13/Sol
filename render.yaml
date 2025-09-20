@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: solana-realtime-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: "8021286101:xxxx"
+      - key: CHAT_ID
+        value: "@solgng"
+      - key: BIRDEYE_API_KEY
+        value: "your_birdeye_api_key"
+      - key: HELIUS_API_KEY
+        value: "your_helius_api_key"
