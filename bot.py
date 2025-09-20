@@ -3,10 +3,10 @@ import time
 from telegram import Bot
 
 # Config (birbaşa kodun içində)
-TELEGRAM_TOKEN = "BURAYA_TELEGRAM_BOT_TOKEN_YAZ"   # məsələn: 1234567890:ABC-xyz
-CHAT_ID = "-1001234567890"   # kanal/chat id (rəqəmlə yazmaq daha dəqiqdir)
+TELEGRAM_TOKEN = "8021286101:AAGiyciV6KiQEGYj4YehSTTw24P-TTYGj7M"   # məsələn: 1234567890:ABC-xyz
+CHAT_ID = "@solgng"   # kanal/chat id (rəqəmlə yazmaq daha dəqiqdir)
 SOLSCAN_API_KEY = "BURAYA_SOLSCAN_API_KEY_YAZ"
-RPC_URL = "https://api.mainnet-beta.solana.com"
+RPC_URL = "https://mainnet.helius-rpc.com/?api-key=76090032-b66d-4abf-821b-7532df3b6e0d
 
 bot = Bot(token=TELEGRAM_TOKEN)
 
