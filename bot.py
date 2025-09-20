@@ -4,8 +4,8 @@ from telegram import Bot
 
 # Config (birbaşa kodun içində)
 TELEGRAM_TOKEN = "8021286101:AAGiyciV6KiQEGYj4YehSTTw24P-TTYGj7M"   # məsələn: 1234567890:ABC-xyz
-CHAT_ID = "@solgng"   # kanal/chat id (rəqəmlə yazmaq daha dəqiqdir)
-SOLSCAN_API_KEY = "BURAYA_SOLSCAN_API_KEY_YAZ"
+CHAT_ID = "-1002968766741"   # kanal/chat id (rəqəmlə yazmaq daha dəqiqdir)
+SOLSCAN_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkQXQiOjE3NTgzODU4NzIwMjMsImVtYWlsIjoiYmF5cmFtY2VzdXI1NjhAZ21haWwuY29tIiwiYWN0aW9uIjoidG9rZW4tYXBpIiwiYXBpVmVyc2lvbiI6InYyIiwiaWF0IjoxNzU4Mzg1ODcyfQ.fgergMSzCb8UgIec1IKehMybQldeP8fjpoUFR3F-q6A"
 RPC_URL = "https://mainnet.helius-rpc.com/?api-key=76090032-b66d-4abf-821b-7532df3b6e0d
 
 bot = Bot(token=TELEGRAM_TOKEN)
